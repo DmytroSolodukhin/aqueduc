@@ -1,0 +1,18 @@
+[
+  {
+      "referenceName": "open",
+      "title": "open"
+  },
+  {
+    "referenceName": "in-progress",
+    "title": "in-progress"
+  },
+  {
+    "referenceName": "problem",
+    "title": "problem"
+  },
+  {
+    "referenceName": "done",
+    "title": "done"
+  }
+]

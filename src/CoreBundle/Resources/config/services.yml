@@ -1,0 +1,55 @@
+parameters:
+    reason: CoreBundle\Entity\Reason
+    zakaz: CoreBundle\Entity\Zakaz
+    city: CoreBundle\Entity\City
+    status: CoreBundle\Entity\Status
+    customer: Application\Sonata\UserBundle\Entity\User
+
+services:
+    status.handler:
+         class: CoreBundle\Handler\StatusHandler
+         arguments: [@service_container, %status%]
+
+    customer.handler:
+         class: CoreBundle\Handler\CustomerHandler
+         arguments: [@service_container, %customer%]
+
+    reason.handler:
+         class: CoreBundle\Handler\ReasonHandler
+         arguments: [@service_container, %reason%]
+
+    admin.reason:
+        class: CoreBundle\Admin\ReasonAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm,  icon: '<i class="fa fa-globe"></i>', group: "Виды проблем", label: "Проблемы" }
+        arguments:
+            - ~
+            - %reason%
+            - 'SonataAdminBundle:CRUD'
+            - @service_container
+
+    zakaz.handler:
+         class: CoreBundle\Handler\ZakazHandler
+         arguments: [@service_container, %zakaz%]
+
+    admin.zakaz:
+        class: CoreBundle\Admin\ZakazAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm,  icon: '<i class="fa fa-list"></i>', group: "Заказы", label: "Заказы" }
+        arguments:
+            - ~
+            - %zakaz%
+            - 'SonataAdminBundle:CRUD'
+
+    city.handler:
+         class: CoreBundle\Handler\CityHandler
+         arguments: [@service_container, %city%]
+
+    admin.city:
+        class: CoreBundle\Admin\CityAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm,  icon: '<i class="fa fa-globe"></i>', group: "города", label: "города" }
+        arguments:
+            - ~
+            - %city%
+            - 'SonataAdminBundle:CRUD'

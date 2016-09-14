@@ -1,0 +1,18 @@
+[
+    {
+        "referenceName": "reason1",
+        "title": "починить кран",
+        "description": "починить кран"
+    },
+    {
+        "referenceName": "reason2",
+        "title": "починить трубу",
+        "description": "починить кран"
+    },
+    {
+        "referenceName": "reason3",
+        "title": "устранить течь",
+        "description": "устранить течь"
+    }
+
+]

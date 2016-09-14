@@ -1,0 +1,102 @@
+[
+    {
+        "referenceName": "cherkasi",
+        "name": "Черкасы"
+    },
+    {
+        "referenceName": "chernigov",
+        "name": "Чернигов"
+    },
+    {
+        "referenceName": "chernovci",
+        "name": "Черновцы"
+    },
+    {
+        "referenceName": "dnepropetrovsk",
+        "name": "Днепр"
+    },
+    {
+        "referenceName": "doneck",
+        "name": "Донецк"
+    },
+    {
+        "referenceName": "gitomir",
+        "name": "Житомир"
+    },
+    {
+        "referenceName": "harkov",
+        "name": "Харьков"
+    },
+    {
+        "referenceName": "herson",
+        "name": "Херсон"
+    },
+    {
+        "referenceName": "hmelnitsk",
+        "name": "Хмельницк"
+    },
+    {
+        "referenceName": "ivanofrankovsk",
+        "name": "Ивано-Франковск"
+    },
+    {
+        "referenceName": "kiev",
+        "name": "Киев"
+    },
+    {
+        "referenceName": "kirovograd",
+        "name": "Кировоград"
+    },
+    {
+        "referenceName": "sevastopol",
+        "name": "Севастополь"
+    },
+    {
+        "referenceName": "lugansk",
+        "name": "Луганск"
+    },
+    {
+        "referenceName": "lviv",
+        "name": "Львов"
+    },
+    {
+        "referenceName": "nikolaev",
+        "name": "Николаев"
+    },
+    {
+        "referenceName": "odessa",
+        "name": "Одесса"
+    },
+    {
+        "referenceName": "poltava",
+        "name": "Полтава"
+    },
+    {
+        "referenceName": "rovno",
+        "name": "Ровнo"
+    },
+    {
+        "referenceName": "sumi",
+        "name": "Сумы"
+    },
+    {
+        "referenceName": "ternopil",
+        "name": "Тернополь"
+    },
+    {
+        "referenceName": "vinica",
+        "name": "Винница"
+    },
+    {
+        "referenceName": "volin",
+        "name": "Волынь"
+    },
+    {
+        "referenceName": "zakarpate",
+        "name": "Ужгород"
+    },
+    {
+        "referenceName": "zaporoge",
+        "name": "Запарожье"
+    }
+]

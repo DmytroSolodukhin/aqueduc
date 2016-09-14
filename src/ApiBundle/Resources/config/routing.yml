@@ -1,0 +1,25 @@
+api_user:
+    resource: "@ApiBundle/Controller/UserController.php"
+    type:     rest
+    prefix:   /user/
+    defaults: {_format: json}
+
+api_zakaz:
+    resource: "@ApiBundle/Controller/ZakazController.php"
+    type:     rest
+    prefix:   /
+    defaults: {_format: json}
+
+api_reason:
+    resource: "@ApiBundle/Controller/ReasonController.php"
+    type:     rest
+    prefix:   /
+    defaults: {_format: json}
+
+
+api_city:
+    resource: "@ApiBundle/Controller/CityController.php"
+    type:     rest
+    prefix:   /
+    defaults: {_format: json}
+
